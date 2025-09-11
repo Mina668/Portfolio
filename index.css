@@ -37,7 +37,7 @@
     --black: #000000;
     --pink: #ff3258;
     --white: #ffffff;
-    --white-1: #feebeb;
+    --white-1: #e5e5e6da;
 
 
     --container-max-width: 1180px;
@@ -554,7 +554,7 @@ body:not(.user-is-tabbing) a:focus {
 .about__photo {
     border-radius: 50%;
     border: 4px solid var(--pink);
-    box-shadow: 0 1rem 2rem rgba(48, 48, 48, 0.2);
+    box-shadow: 0 1rem 2rem rgba(59, 59, 59, 0.2);
 }
 @media(min-width: 901px) {
     .about__text {
