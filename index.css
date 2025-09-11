@@ -544,12 +544,13 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 900px) {
     .about__content {
         flex-direction: column-reverse;
-        align-items: initial;
+        align-items: center;
     }
 }
 
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
+    align-items: center;
 }
 .about__photo {
     border-radius: 50%;
