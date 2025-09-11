@@ -553,8 +553,9 @@ body:not(.user-is-tabbing) a:focus {
 }
 .about__photo {
     border-radius: 50%;
-    border: 5px solid var(--pink);
-    box-shadow: 0 1rem 2rem rgba(0,0,0, .2);
+    border: 3px solid var(--pink);
+    box-shadow: 0 1rem 2rem rgba(48, 48, 48, 0.2);
+}
 @media(min-width: 901px) {
     .about__text {
         flex: 0 0 35%;
